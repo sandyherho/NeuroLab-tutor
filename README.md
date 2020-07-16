@@ -6,7 +6,8 @@
 [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)<br>
 ![GitHub watchers](https://img.shields.io/github/watchers/sandyherho/NeuroLab-tutor?style=social)<br>
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)<br>
+[![DOI](https://zenodo.org/badge/279504744.svg)](https://zenodo.org/badge/latestdoi/279504744)
 
 
 oleh:
