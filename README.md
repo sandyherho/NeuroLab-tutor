@@ -46,7 +46,7 @@ conda deactivate
 ```
 Penerbit:
 
-<br><br>
+<br>
 
 <a href="http://weather.meteo.itb.ac.id/">
 <img src="wcpl.png" alt="wcpl-itb" width="200"/>
