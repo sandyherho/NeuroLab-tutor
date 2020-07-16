@@ -1,0 +1,15 @@
+# Konsep dasar jaringan saraf tiruan
+
+<p align=”justify”>Konsep tentang algoritma jaringan saraf tiruan (ANN) pada dasarnya bukanlah konsep yang baru. Konsep ini pertama kali dicetuskan oleh McCulloch dan Pitts (1943) di dalam telaah <i>Bulletin of Mathematical Biophysics</i>. Namun pengembangan praktis untuk implementasi algoritma ini sangatlah lambat akibat kekurangan sumber data, sehingga perkembangan penelitian untuk penerapan algoritma ANN untuk kecerdasan buatan menjadi stagnan pada periode 1960an  hingga awal 2000an, suatu periode yang dikenal sebagai <a href="https://en.wikipedia.org/wiki/AI_winter">AI Winter</a>. Baru kemudian ketika perkembangan internet makin pesat dan data raksasa tersebar di mana - mana, terjadi perkembangan cukup signifikan pada penelitian ANN semenjak tahun 2011 yang lalu. Saat ini, algoritma ANN digunakan hampir di seluruh bidang teknologi informasi modern, seperti pengenalan suara; pengelihatan komputer; sistem rekomendasi; diagnosa medis; dll.</p>
+
+<p align=”justify”>ANN pada dasarnya merupakan tiruan dari cara kerja sistem otak manusia di dalam melakukan pemecahan masalah. Oleh karena itu, satuan terkecil dari ANN yang dikenal sebagai perseptron juga merupakan tiruan dari neuron pada otak. Perseptron menangkap <i>input</i> dengan menggunakan fungsi transfer tertentu, seperti yang paling terkenal adalah fungsi linear dan Sigmoid (tidak akan dibahas pada tutorial singkat ini) untuk memproses data hingga menghasilkan Perseptron ini <i>output</i>. Jika jaringan perseptron ini mempunyai lebih dari dua buah lapisan, maka dikenal sebagai <i>deep neural networks</i>. </p>
+
+<img src="deep.png" alt="DeepNets" style="width: 300px;"/>
+
+<p align=”justify”>Algoritma ANN dapat digunakan untuk melakukan pemelajaran mesin tersuprevisi (<i>supervised learning</i>) maupun tidak tersupervisi (<i>unsupervised learning</i>). Seperti pada model pemelajaran mesin lainnya, model ANN juga memerlukan proses <i>training</i> untuk meminimalkan galat. Secara umum proses kerja dari algoritma ANN adalah sebagai berikut:</p>
+$$
+\text{Dataset} \rightarrow \text{Data numerik} \rightarrow \text{Training untuk meminimalkan galat} 
+$$
+<p align=”justify”>Yang perlu diingat dari aspek praktisnya, di sini adalah suatu proses <i>training</i> pada suatu dataset hanya dapat dilakukan jika data telah diubah ke dalam bentuk numerik, tidak peduli apakah data tersebut awalnya berupa teks maupun citra.</p>
+
+<p align=”justify”>Sebetulnya masih banyak aspek - aspek menarik, utamanya dari segi matematis dan sejarah algoritma ANN yang tidak dibahas di sini, namun karena tutorial singkat ini bersifat praktis, maka sengaja saya abaikan. Pembaca diharapkan dapat mencari sendiri di internet untuk mendalami hal - hal tersebut. Pada bagian - bagian selanjutnya, saya akan fokus sepenuhnya pada penerapan ANN secara praktis dengan menggunakan pustaka NeuroLab.</p>
