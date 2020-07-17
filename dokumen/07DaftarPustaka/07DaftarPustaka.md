@@ -16,3 +16,4 @@
 * Oliphant, T.E., 2006. A guide to NumPy, Trelgol Publishing USA.
 * Paszke, A. dkk., 2019. PyTorch: An Imperative Style, High-Performance Deep Learning Library. In H. Wallach dkk., eds. Advances in Neural Information Processing Systems 32. Curran Associates, Inc., hal. 8024–8035. Tersedia di: http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf.
 * Ruder, S. 2016. An overview of gradient descent optimization algorithms. *arXiv:1609.04747*. 
+* Svozil, Daniel & Kvasnicka, Vladimir & Pospíchal, Jiří. (1997). Introduction to multi-layer feed-forward neural networks. *Chemometrics and Intelligent Laboratory Systems*. 39. 43-62. 10.1016/S0169-7439(97)00061-0. 
